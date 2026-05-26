@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artesanías en Yeso - Catálogo Interactivo</title>
+    <title>Wings &amp; Drinks</title>
     <style>
         :root {
             --color-texto:       #111;
@@ -95,8 +95,8 @@
             margin: 10px auto 0 auto;
             border-radius: 2px;
         }
-        /* ── BOTÓN VELAS KUKUMITA ── */
-        .btn-velas-kukumita {
+        /* ── BOTÓN PRINCIPAL ── */
+        .btn-catalogo-principal {
             display: block;
             width: 100%;
             height: 210px;
@@ -106,16 +106,16 @@
             box-shadow: 0 6px 24px rgba(255,107,107,0.4);
             transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
         }
-        .btn-velas-kukumita:hover {
+        .btn-catalogo-principal:hover {
             transform: translateY(-3px);
             box-shadow: 0 12px 32px rgba(255,107,107,0.5);
             opacity: 0.95;
         }
-        body.modo-oscuro .btn-velas-kukumita {
+        body.modo-oscuro .btn-catalogo-principal {
             box-shadow: 0 6px 24px rgba(255,107,107,0.2);
         }
         @media (max-width: 700px) {
-            .btn-velas-kukumita { height: 140px; border-radius: 14px; }
+            .btn-catalogo-principal { height: 140px; border-radius: 14px; }
         }
         /* Promos grid */
         .grilla-promos {
@@ -1677,7 +1677,7 @@
 
         <!-- Cabecera -->
         <div class="drawer-header">
-            <span class="drawer-header-titulo">🏺 Yesos Polo <span id="badgeAdmin">ADMIN</span></span>
+            <span class="drawer-header-titulo">🍗 Wings &amp; Drinks <span id="badgeAdmin">ADMIN</span></span>
             <button class="btn-cerrar-drawer" onclick="cerrarDrawer()">✕</button>
         </div>
 
@@ -1868,7 +1868,7 @@
 
             <div class="sin-resultados" id="mensaje-vacio">No hay piezas disponibles en esta categoría con el precio seleccionado.</div>
 
-            <div class="producto-card" id="prod-stich" data-subcategoria="animales personajes" data-categoria="comida" data-precio="109"
+            <div class="producto-card" id="prod-hamburguesa-doritos-burguer" data-subcategoria="animales personajes" data-categoria="comida" data-precio="109"
                  data-nombre="Hamburguesa Doritos Burguer"
                  data-detalles=""
                  data-precio-texto="$109 MXN"
@@ -1893,7 +1893,7 @@
                 <div class="producto-card-hint">Toca para ver detalles</div>
             </div>
 
-            <div class="producto-card" id="prod-virgen1" data-subcategoria="personajes" data-categoria="bebidas" data-precio="49"
+            <div class="producto-card" id="prod-sabores-que-transportan" data-subcategoria="personajes" data-categoria="bebidas" data-precio="49"
                  data-nombre="Sabores que Transportan"
                  data-detalles=""
                  data-precio-texto="$49 MXN"
@@ -1918,7 +1918,7 @@
                 <div class="producto-card-hint">Toca para ver detalles</div>
             </div>
 
-            <div class="producto-card" id="prod-unicornio" data-subcategoria="animales" data-categoria="comida" data-precio="89"
+            <div class="producto-card" id="prod-alitas-que-enamoran" data-subcategoria="animales" data-categoria="comida" data-precio="89"
                  data-nombre="Alitas que Enamoran"
                  data-detalles=""
                  data-precio-texto="$89 MXN"
@@ -1939,7 +1939,7 @@
                 <div class="producto-card-hint">Toca para ver detalles</div>
             </div>
 
-            <div class="producto-card" id="prod-osito1" data-subcategoria="animales" data-categoria="bebidas" data-precio="49"
+            <div class="producto-card" id="prod-vodka" data-subcategoria="animales" data-categoria="bebidas" data-precio="49"
                  data-nombre="Vodka"
                  data-detalles=""
                  data-precio-texto="Medio Litro: $49 MXN"
@@ -1964,7 +1964,7 @@
                 <div class="producto-card-hint">Toca para ver detalles</div>
             </div>
 
-            <div class="producto-card" id="prod-base-cuadrada" data-subcategoria="objetos" data-categoria="comida" data-precio="99"
+            <div class="producto-card" id="prod-bbq-smoke-burguer" data-subcategoria="objetos" data-categoria="comida" data-precio="99"
                  data-nombre="BBQ Smoke Burguer"
                  data-detalles=""
                  data-precio-texto="$99 MXN"
@@ -1985,7 +1985,7 @@
                 <div class="producto-card-hint">Toca para ver detalles</div>
             </div>
 
-            <div class="producto-card" id="prod-maceta-rallada" data-subcategoria="objetos" data-categoria="bebidas" data-precio="49"
+            <div class="producto-card" id="prod-tequila" data-subcategoria="objetos" data-categoria="bebidas" data-precio="49"
                  data-nombre="Tequila"
                  data-detalles=""
                  data-precio-texto="$49 MXN"
@@ -2011,7 +2011,7 @@
             </div>
 
 
-            <div class="producto-card" id="prod-hongo-chico" data-subcategoria="objetos" data-categoria="comida" data-precio="99"
+            <div class="producto-card" id="prod-hamburguesa-street-classic" data-subcategoria="objetos" data-categoria="comida" data-precio="99"
                  data-nombre="Hamburguesa Street Classic"
                  data-detalles=""
                  data-precio-texto="$99 MXN"
@@ -2032,7 +2032,7 @@
                 <div class="producto-card-hint">Toca para ver detalles</div>
             </div>
 
-            <div class="producto-card" id="prod-base-tronco" data-subcategoria="objetos" data-categoria="bases" data-precio="15"
+            <div class="producto-card" id="prod-base-de-tronco" data-subcategoria="objetos" data-categoria="bases" data-precio="15"
                  data-nombre="Base de Tronco"
                  data-detalles="Tamaño: Mediano · Categoría: Bases"
                  data-precio-texto="$15.00 MXN"
@@ -2053,7 +2053,7 @@
                 <div class="producto-card-hint">Toca para ver detalles</div>
             </div>
 
-            <div class="producto-card" id="prod-maceta-corona-chica" data-subcategoria="objetos" data-categoria="macetas" data-precio="8"
+            <div class="producto-card" id="prod-maceta-de-corona" data-subcategoria="objetos" data-categoria="macetas" data-precio="8"
                  data-nombre="Maceta de Corona"
                  data-detalles="Tamaño: Chico · Categoría: Macetas"
                  data-precio-texto="$8.00 MXN"
@@ -2075,7 +2075,7 @@
             </div>
 
             <!-- Casa -->
-            <div class="producto-card" id="prod-casa-diminuta1" data-subcategoria="objetos" data-categoria="figuras" data-subcategoria="casas" data-precio="4"
+            <div class="producto-card" id="prod-mini-casa" data-subcategoria="objetos" data-categoria="figuras" data-subcategoria="casas" data-precio="4"
                  data-nombre="Mini Casa"
                  data-detalles="Tamaño: Mini · Categoría: Figuras"
                  data-precio-texto="$4.00 MXN"
@@ -2098,7 +2098,7 @@
             </div>
 
             <!-- Casa 2 -->
-            <div class="producto-card" id="prod-casa-diminuta2" data-subcategoria="objetos" data-categoria="figuras" data-subcategoria="casas" data-precio="5"
+            <div class="producto-card" id="prod-mini-casa-2" data-subcategoria="objetos" data-categoria="figuras" data-subcategoria="casas" data-precio="5"
                  data-nombre="Mini Casa 2"
                  data-detalles="Tamaño: Mini · Categoría: Figuras"
                  data-precio-texto="$5.00 MXN"
@@ -2121,7 +2121,7 @@
             </div>
 
             <!-- Maceta de Virgen -->
-            <div class="producto-card" id="prod-maceta-virgen-mediana" data-subcategoria="personajes" data-categoria="macetas" data-precio="15"
+            <div class="producto-card" id="prod-maceta-de-virgen" data-subcategoria="personajes" data-categoria="macetas" data-precio="15"
                  data-nombre="Maceta de Virgen"
                  data-detalles="Tamaño: Mediano · Categoría: Macetas"
                  data-precio-texto="$15.00 MXN"
@@ -2144,7 +2144,7 @@
             </div>
 
             <!-- Maceta de Rombos -->
-            <div class="producto-card" id="prod-maceta-rombos-mediana" data-subcategoria="objetos" data-categoria="macetas" data-precio="12"
+            <div class="producto-card" id="prod-maceta-de-rombos" data-subcategoria="objetos" data-categoria="macetas" data-precio="12"
                  data-nombre="Maceta de Rombos"
                  data-detalles="Tamaño: Mediano · Categoría: Macetas"
                  data-precio-texto="$12.00 MXN"
@@ -2167,7 +2167,7 @@
             </div>
 
             <!-- Maceta Circular -->
-            <div class="producto-card" id="prod-maceta-circular-mediana" data-subcategoria="objetos" data-categoria="macetas" data-precio="10"
+            <div class="producto-card" id="prod-maceta-circular" data-subcategoria="objetos" data-categoria="macetas" data-precio="10"
                  data-nombre="Maceta Circular"
                  data-detalles="Tamaño: Mediano · Categoría: Macetas"
                  data-precio-texto="$10.00 MXN"
@@ -2190,7 +2190,7 @@
             </div>
 
             <!-- Maceta de Flor de Loto -->
-            <div class="producto-card" id="prod-maceta-flor-loto" data-subcategoria="objetos" data-categoria="macetas" data-precio="15"
+            <div class="producto-card" id="prod-maceta-de-flor-de-loto" data-subcategoria="objetos" data-categoria="macetas" data-precio="15"
                  data-nombre="Maceta de Flor de Loto"
                  data-detalles="Tamaño: Mediano · Categoría: Macetas"
                  data-precio-texto="$15.00 MXN"
@@ -2213,7 +2213,7 @@
             </div>
 
             <!-- Maceta Tradicional -->
-            <div class="producto-card" id="prod-maceta-tradicional-mediana" data-subcategoria="objetos" data-categoria="macetas" data-precio="12"
+            <div class="producto-card" id="prod-maceta-tradicional" data-subcategoria="objetos" data-categoria="macetas" data-precio="12"
                  data-nombre="Maceta Tradicional"
                  data-detalles="Tamaño: Mediano · Categoría: Macetas"
                  data-precio-texto="$12.00 MXN"
@@ -2236,7 +2236,7 @@
             </div>
 
             <!-- Maceta de Flor -->
-            <div class="producto-card" id="prod-maceta-flor-mediana" data-subcategoria="objetos" data-categoria="macetas" data-precio="15"
+            <div class="producto-card" id="prod-maceta-de-flor" data-subcategoria="objetos" data-categoria="macetas" data-precio="15"
                  data-nombre="Maceta de Flor"
                  data-detalles="Tamaño: Mediano · Categoría: Macetas"
                  data-precio-texto="$15.00 MXN"
@@ -2259,7 +2259,7 @@
             </div>
 
             <!-- Oso de Flores -->
-            <div class="producto-card" id="prod-oso-flor" data-subcategoria="animales personajes" data-categoria="figuras" data-subcategoria="osos" data-precio="15"
+            <div class="producto-card" id="prod-oso-de-flores" data-subcategoria="animales personajes" data-categoria="figuras" data-subcategoria="osos" data-precio="15"
                  data-nombre="Oso de Flores"
                  data-detalles="Tamaño: Mediano · Categoría: Figuras · Subcategoría: Osos"
                  data-precio-texto="$15.00 MXN"
@@ -2282,7 +2282,7 @@
             </div>
 
             <!-- Maceta de Borrego nueva -->
-            <div class="producto-card" id="prod-maceta-borrego-mediana1" data-subcategoria="animales" data-categoria="macetas" data-subcategoria="borrego" data-precio="15"
+            <div class="producto-card" id="prod-maceta-de-borrego" data-subcategoria="animales" data-categoria="macetas" data-subcategoria="borrego" data-precio="15"
                  data-nombre="Maceta de Borrego"
                  data-detalles="Tamaño: Mediano · Categoría: Macetas · Borrego"
                  data-precio-texto="$15.00 MXN"
@@ -2305,7 +2305,7 @@
             </div>
 
             <!-- Maceta de Oso -->
-            <div class="producto-card" id="prod-maceta-oso-mediana" data-subcategoria="animales" data-categoria="macetas" data-subcategoria="osos" data-precio="15"
+            <div class="producto-card" id="prod-maceta-de-oso" data-subcategoria="animales" data-categoria="macetas" data-subcategoria="osos" data-precio="15"
                  data-nombre="Maceta de Oso"
                  data-detalles="Tamaño: Mediano · Categoría: Macetas · Osos"
                  data-precio-texto="$15.00 MXN"
